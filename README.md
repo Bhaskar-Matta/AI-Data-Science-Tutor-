@@ -60,29 +60,6 @@ AI Data Science Tutor is an interactive Streamlit application that provides AI-p
 
 ---
 
-## 🤝 Contributing
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-branch
-   ```
-3. Make your changes and commit:
-   ```bash
-   git commit -m "Added new feature"
-   ```
-4. Push your changes:
-   ```bash
-   git push origin feature-branch
-   ```
-5. Create a pull request.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
 ---
 
 ## 📞 Contact
@@ -90,7 +67,7 @@ This project is licensed under the **MIT License**.
 For any questions or suggestions, feel free to reach out!
 
 - GitHub: (https://github.com/Bhaskar-Matta)
-- Email: your-email@example.com
+- Email: bhaskarmatta77@gmail.com
 
 
 
