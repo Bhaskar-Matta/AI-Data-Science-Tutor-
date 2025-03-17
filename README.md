@@ -1,70 +1,96 @@
-# AI-Data-Science-Tutor-# 🤖 AI Data Science Tutor
+# 🤖 AI Data Science Tutor
 
-Welcome to **AI Data Science Tutor**! 🧠 This is an interactive AI-powered assistant built with **Streamlit** and **Google Gemini LLM** to help users with data science queries, machine learning insights, and code debugging.
-
-## 🚀 Features
-
-✅ **AI-Powered Q&A:** Ask any data science question and get responses at three levels:
-
-- **Easy** 🟢 - Beginner-friendly explanation.
-- **Medium** 🟡 - Detailed answer with some technical depth.
-- **Advanced** 🔴 - In-depth explanation with precise technical details.
-
-✅ **Code Debugging** 🐍 - Paste your Python code and get debugging insights instantly.
-
-✅ **ML Model Evaluation** 🤖 - Upload your machine learning model (Pickle file) and get AI-powered analysis.
-
-✅ **Chat History** 📜 - Stores previous conversations for future reference.
-
-✅ **PDF Export** 📥 - Download the chat history as a PDF file.
-
-✅ **Secure Login System** 🔑 - Users must log in with a role before accessing features.
-
-## 🏗️ Tech Stack
-
-- **Streamlit** 🎨 - UI framework for building the web app.
-- **Google Gemini LLM** 🤖 - AI model for answering queries.
-- **LangChain** 🔗 - Manages AI interactions and chat history.
-- **SQLite** 🗄️ - Stores user data and interactions.
-- **Plotly** 📊 - Data visualization support.
-- **FPDF** 📄 - Export chat history as PDFs.
-
-## 🔧 Installation
-
-1️⃣ **Clone the Repository**
-
-```bash
-git clone https://github.com/your-username/ai-data-science-tutor.git
-cd ai-data-science-tutor
-```
-
-2️⃣ **Create a Virtual Environment** (Recommended)
-
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
-
-3️⃣ **Install Dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-4️⃣ **Set Up API Key**
-Create a `.env` file and add your **Google GenAI API Key**:
-
-```bash
-GEMINI_API_KEY=your_api_key_here
-```
-
-5️⃣ **Run the App**
-
-```bash
-streamlit run app.py
-```
+AI Data Science Tutor is an interactive Streamlit application that provides AI-powered assistance for data science-related queries. It uses Google's **Gemini LLM** to generate structured answers at different levels of expertise and includes additional tools like code debugging and machine learning model evaluation.
 
 ---
 
-💡 **Developed with ❤️ by [Your Name]**
+## ✨ Features
+
+- **🧠 AI-Powered Q&A**: Get detailed responses at **Easy**, **Medium**, and **Advanced** levels.
+- **📜 Chat History**: View past interactions and export them as a **PDF**.
+- **🐍 Code Debugger**: Analyze Python code for errors and improvements.
+- **🤖 ML Model Evaluation**: Upload and assess machine learning models (.pkl files).
+- **🔑 User Login**: Different roles (**User, Admin, Business Analyst, Data Scientist**) for personalized responses.
+- **⏹ Stop Response**: Instantly halt AI responses when needed.
+- **🚀 Secure API Access**: Uses `.env` file for securely storing API keys.
+
+---
+
+## 🛠 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/AI-Data-Science-Tutor.git
+   cd AI-Data-Science-Tutor
+   ```
+
+2. **Create a virtual environment (optional but recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set up API Key**
+   - Create a `.env` file in the root directory.
+   - Add your Google Gemini API key:
+     ```
+     GEMINI_API_KEY=your_api_key_here
+     ```
+
+5. **Run the application**
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## 🚀 Usage
+
+- **Login:** Enter your username and select a role.
+- **Ask Questions:** Type a data science-related query.
+- **Stop Response:** Click **⏹ Stop Response** to halt AI output.
+- **Debug Code:** Paste Python code into the debugger for analysis.
+- **Evaluate ML Models:** Upload `.pkl` files to assess machine learning models.
+- **Export Chat:** Download your conversation history as a PDF.
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. Make your changes and commit:
+   ```bash
+   git commit -m "Added new feature"
+   ```
+4. Push your changes:
+   ```bash
+   git push origin feature-branch
+   ```
+5. Create a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📞 Contact
+
+For any questions or suggestions, feel free to reach out!
+
+- GitHub: (https://github.com/Bhaskar-Matta)
+- Email: your-email@example.com
+
+
 
